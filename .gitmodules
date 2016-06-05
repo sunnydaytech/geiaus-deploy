@@ -1,0 +1,6 @@
+[submodule "geiaus-server"]
+	path = geiaus-server
+	url = git@github.com:sunnydaytech/geiaus-server.git
+[submodule "geiaus-web"]
+	path = geiaus-web
+	url = git@github.com:sunnydaytech/geiaus-web.git

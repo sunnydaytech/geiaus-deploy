@@ -10,7 +10,10 @@ spec:
         run: geiaus-web 
     spec:
       containers:
-      - name: geiaus-web 
-        image: gcr.io/nich01as-com/geiaus-web:20160525
-        ports:
-        - containerPort: 8080
+        -
+          name: geiaus-web 
+          image: gcr.io/nich01as-com/geiaus-web:20160604_01
+          ports:
+            -
+              containerPort: 8080
+          imagePullPolicy: Always
